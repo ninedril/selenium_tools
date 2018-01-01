@@ -110,13 +110,15 @@ def is_edge_overlapped_from_pointset(pointset1, pointset2):
 
     return (a_x0 <= b_x0 < b_x1 <= a_x1) or (b_x0 <= a_x0 < a_x1 <= b_x1)
 
-#((int, int), (int, int)), ((int, int), (int, int)) => int
+#((int, int), (int, int)), ((int, int), (int, int)) => (int, int)
+# 
 def get_edge_overlapped_size_from_pointset(pointset1, pointset2):
     if not(is_overlapped_from_pointset(pointset1, pointset2)):
-        return False
+        return -1
     a_x0, a_x1 = pointset1[0][1], pointset1[1][1]
     b_x0, b_x1 = pointset2[0][1], pointset2[1][1]
 
+    # pointset1 is bigger
     if (a_x0 <= b_x0 < b_x1 <= a_x1):
         if (a_y0 < b_y0 < a_y1 < b_y1):
             return a_y1 - b_y0
@@ -124,6 +126,7 @@ def get_edge_overlapped_size_from_pointset(pointset1, pointset2):
             return b_y1 - b_y0
         elif (b_y0 < a_y0 < b_y1 < a_y1):
             return b_y1 - a_y0    
+    # pointset2
     elif (b_x0 <= a_x0 < a_x1 <= b_x1):
         if (b_y0 < a_y0 < b_y1 < a_y1):
             return b_y1 - a_y0
