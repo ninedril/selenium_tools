@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>404ページ</title>
+
+
+
+
+
+
+
+
+
+<script>
+window.onload = function() {
+	
+	// title
+	document.title = "ページが見つかりませんでした｜立命館大学";
+	
+	// meta
+	setMetaContentAttribute('author', '');
+	setMetaContentAttribute('description', '');
+	setMetaContentAttribute('keywords', '立命館大学,立命館,立命,大学,Ritsumeikan University,京都,滋賀,大阪,衣笠,朱雀,草津,びわこ・くさつ,茨木,いばらき,受験,教育,研究,留学,グローバル,国際,産学官連携,学生,就職,社会連携,地域連携,SGU,Beyond Borders');
+
+	// body attribute
+	
+			document.body.setAttribute('lang', 'ja');
+	
+}
+function setMetaContentAttribute(name, value) {
+	var elm = document.getElementsByName(name);
+	if (elm != null) {
+		elm[0].setAttribute('content', value);
+	}
+}
+</script>
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, minimum-scale=0.5 , maximum-scale=2" id="vp" />
+<meta property="og:site_name" content="立命館大学">
+<meta property="og:title" content="ページが見つかりませんでした｜立命館大学">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://www.ritsumei.ac.jp/common/not-found.html/">
+<meta property="og:image" content="http://www.ritsumei.ac.jp/common/img/ritsumei_ogp_1.png">
+<meta property="og:description" content=" ">
+<link rel="stylesheet" href="/common/js_j/fresco/fresco.css" type="text/css" media="all">
+<link rel="stylesheet" href="/common/css_j/style.css" type="text/css" media="all">
+<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!--[if lte IE 8]><script type="text/javascript" src="/common/js_j/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P5ZVMW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P5ZVMW');</script>
+<!-- End Google Tag Manager -->
+	<div id="g-wrapper">
+		<header class="global ">
+			<div class="fixed-area">
+				<div class="l-contents">
+					<div class="fixed-frame">
+						<p id="site-logo"><a href="/"><img alt="立命館大学" src="/common/images_j/common/site_logo.png"></a></p>
+						<div class="sp-menu-list">
+							<ul>
+								<li class="target-btn" data-crnt="false" data-target="sub-nav"><a href="#"><img alt="" src="/common/images_j/common/btn_target_x2.png" width="49" height="49"></a></li>
+								<li class="main-btn" data-crnt="false" data-target="sp-menu-wrap"><a href="#"><img alt="" src="/common/images_j/common/btn_menu_x2.png" width="49" height="49"></a></li>
+							</ul>
+						</div>
+						<div class="sp-menu-wrap">
+							<div class="global-nav">
+								<ul>
+									<li class="nav01">
+										<a href="/profile/"><span class="gnav-title">大学紹介</span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<div class="detail">
+													<div class="l-frame">
+														<div class="pickup">
+															<p class="photo"><img alt="未来を創る取り組み" src="/common/images_j/common/img_header_daigakushoukai.jpg" width="230"></p>
+															<p class="link"><a href="/profile/features/">未来を創る取り組み</a></p>
+														</div>
+														<ul class="other-link">
+															<li><a href="/profile/features/">未来を創る取り組み</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">理念・歴史、伝統</span>
+																<ul>
+																	<li><a href="/profile/about/charter/">立命館憲章</a></li>
+																	<li><a href="/profile/about/foundation/">建学の精神</a></li>
+																	<li><a href="/profile/about/education/">教学理念</a></li>
+																	<li><a href="/profile/about/history/">歴史</a></li>
+																	<li><a href="/profile/about/sport/">立命館スポーツ宣言</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/features/r2020/" target="_blank">R2020中長期計画</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">基本情報</span>
+																<ul>
+																	<li><a href="/profile/info/president/">学長あいさつ</a></li>
+																	<li><a href="/profile/info/president_bio/">学長略歴</a></li>
+																	<li><a href="/profile/info/exective/">大学役員一覧</a></li>
+																	<li><a href="/profile/info/organization/">大学組織図</a></li>
+																	<li><a href="/profile/info/calender/">学年暦</a></li>
+																	<li><a class="blank" href="http://www.ritsumeikan-trust.jp/publicinfo/disclosure/" target="_blank">情報公開</a></li>
+																	<li><a href="/profile/info/application/">学部等の設置認可申請</a></li>
+																	<li><a href="/profile/info/situation/">設置計画履行状況等報告書</a></li>
+																	<li><a href="/profile/info/adoption/">文部科学省等による各種事業採択プログラム</a></li>
+																	<li><a href="/profile/info/assessment/">大学評価</a></li>
+																	<li><a href="/profile/faculty/">教員一覧</a></li>
+																	<li><a href="/profile/info/media/">学生・教員のメディア出演情報</a></li>
+																	<li><a class="blank" href="http://www.ritsumeikan-trust.jp/publicinfo/approach/compliance/" target="_blank">コンプライアンス</a></li>
+																	<li><a href="/profile/info/emblem/">校章・コミュニケーションマーク</a></li>
+																	<li><a href="/profile/info/history/song/">学園歌</a></li>
+																	<li><a class="pdf" href="/common/pdf/crossroads_jp.pdf" target="_blank">立命館学園案内　「Crossroads」</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">キャンパス</span>
+																<ul>
+																	<li><a href="/campusmap/#kic">衣笠キャンパス</a></li>
+																	<li><a href="/campusmap/#bkc">びわこ・くさつキャンパス</a></li>
+																	<li><a href="/campusmap/#oic">大阪いばらきキャンパス</a></li>
+																	<li><a href="/campusmap/#suzaku">朱雀キャンパス</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/tokyocampus/" target="_blank">東京キャンパス</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/osakaumedacampus/" target="_blank">大阪梅田キャンパス</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="nav02">
+										<a href="/academics/"><span class="gnav-title">教育</span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<div class="detail">
+													<div class="l-frame">
+														<div class="pickup">
+															<p class="photo"><img alt="学びの立命館モデル" src="/common/images_j/common/img_header_kyouiku.jpg" width="230"></p>
+															<p class="link"><a href="/academics/model/">学びの立命館モデル</a></p>
+														</div>
+														<ul class="other-link">
+															<li><a href="/academics/model/">学びの立命館モデル</a></li>
+															<!--<li><a href="/academics/navi/">学部ナビ</a></li>
+-->
+															<li><a class="blank" href="http://www.ritsumei.jp/scholarship/index_j.html" target="_blank">奨学金制度（学部）</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/ru_gr/g-career/fellow/" target="_blank">奨学金制度（大学院）</a></li>
+															<li><a href="/international2/studyabroad/">海外留学</a></li>
+															<li><a href="/academics/other/">他学部受講</a></li>
+															<li><a href="/academics/#professional">各機構・センター</a></li>
+															<li><a href="/academics/#other">他大学での学び</a></li>
+			<li><a href="/academics/#course">科目等履修・聴講制度</a></li>
+															<li><a href="/academics/#learning">公開講座・語学学習・資格取得講座</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/ikkan/" target="_blank">一貫教育について</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">学部</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/law/" target="_blank">法学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ss/" target="_blank">産業社会学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ir/" target="_blank">国際関係学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.jp/lt/index_j.html" target="_blank">文学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/cias/" target="_blank">映像学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ec/" target="_blank">経済学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.jp/shs/index_j.html" target="_blank">スポーツ健康科学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/se2017/" target="_blank">理工学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ise/" target="_blank">情報理工学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ls/" target="_blank">生命科学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ph/" target="_blank">薬学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gas/pr/" target="_blank">食マネジメント学部(2018年4月開設)</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ba/" target="_blank">経営学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ps/" target="_blank">政策科学部</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/psy/" target="_blank">総合心理学部</a></li>
+				<li><a class="blank" href="http://www.ritsumei.ac.jp/gla/" target="_blank">グローバル教養学部（2019年4月設置構想中）</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">大学院（衣笠、BKC）</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsla/" target="_blank">法学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsss/" target="_blank">社会学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsir/" target="_blank">国際関係研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gslt/" target="_blank">文学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsia/" target="_blank">映像研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/acd/gr/gsshs/index.html" target="_blank">応用人間科学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/acd/gr/gsli/index.html" target="_blank">言語教育情報研究科</a></li>
+																	<li><a class="blank" href="http://www.r-gscefs.jp/" target="_blank">先端総合学術研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsec/" target="_blank">経済学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gs_shs/" target="_blank">スポーツ健康科学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsse/" target="_blank">理工学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsise/" target="_blank">情報理工学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsls/" target="_blank">生命科学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsph/" target="_blank">薬学研究科</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">大学院（OIC、朱雀）</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/acd/gr/gsba/" target="_blank">経営学研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gsps/" target="_blank">政策科学研究科</a></li>
+					<li><a class="blank" href="http://www.ritsumei.ac.jp/gshs/" target="_blank">人間科学研究科(2018年4月開設)</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/mot/" target="_blank">テクノロジー・マネジメント研究科</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gspp/" target="_blank">公務研究科</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul>
+															<li><span class="title1">専門職大学院</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/mba/" target="_blank">経営管理研究科（経営大学院）</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/lawschool/" target="_blank">法務研究科（法科大学院）</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gspte/" target="_blank">教職研究科（教職大学院）</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul class="other-link">
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/acd/ac/kyomu/gaku/onlinesyllabus.htm" target="_blank">シラバス</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/library/" target="_blank">図書館</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/acd/mr/lib/plr/index.html" target="_blank">ぴあら</a></li>
+															<li><a href="/profile/faculty/">教員一覧</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="nav03">
+										<a href="/research/"><span class="gnav-title">研究・産学官連携</span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<div class="detail">
+													<div class="l-frame">
+														<div class="pickup">
+															<p class="photo"><img alt="研究最前線" src="/common/images_j/common/img_header_kenkyuu.jpg" width="230"></p>
+															<p class="link"><a href="/research/branding/">私立大学研究ブランディング事業</a></p>
+														</div>
+														<ul>
+															<li><span class="title1">研究最前線</span>
+																<ul>
+																	<li><a href="/research/activities/feature/">研究最前線</a></li>
+																	<li><a class="blank" href="http://research-db.ritsumei.ac.jp/scripts/websearch/index.htm" target="_blank">研究者の業績</a></li>
+																	<li><a class="blank" href="http://www.ritsumei-seeds.jp/" target="_blank">研究シーズ</a></li>
+																	<li><a href="/research/center2/">研究機構・研究所・研究センター<br>
+																	研究コンソーシアム</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">本学の研究活動</span>
+																<ul>
+																	<li><a href="/research/activities/feature/">研究最前線</a></li>
+																	<li><a class="blank" href="http://research-db.ritsumei.ac.jp/scripts/websearch/index.htm" target="_blank">研究者学術情報データベース</a></li>
+																	<li><a href="/research/center2/">研究機構・研究所・研究センター<br>
+																	研究コンソーシアム</a></li>
+																	<li><a href="/research/activities/international/">国際産学連携活動</a></li>
+																	<li><a href="/research/activities/facilities/">施設紹介</a></li>
+																	<li><a href="/research/activities/activity/">大学発ベンチャー</a></li>
+																	<li><a href="/research/activities/pamphlet/">パンフレット一覧</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">産学官連携</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei-seeds.jp/" target="_blank">研究シーズ</a></li>
+																	<li><a href="/research/collaboration2/about/">リサーチオフィスについて</a></li>
+																	<li><a href="/research/collaboration2/headquaters/">産学官連携戦略本部の概要</a></li>
+																	<li><a href="/research/collaboration2/application/">産学官連携の申請方法</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">研究の取り組み</span>
+																<ul>
+																	<li><a href="/research/approach/vision/">研究ビジョン</a></li>
+																	<li><a href="/research/approach/ethics/">研究倫理</a></li>
+																	<li><a href="/research/approach/execution/">適正執行</a></li>
+																	<li><a class="blank" href="http://ri-search.ritsumei.ac.jp/" target="_blank">Ri-Search</a></li>
+																</ul>
+															</li>
+														</ul>
+<p>　</p>													<ul class="other-link">
+															<li><a href="/research/collaboration2/about/">産学連携をお考えの皆さまへ</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/research/member/" target="_blank">学内研究支援情報（研究部）</a></li>
+				<li><a class="blank" href="http://www.ritsumei.ac.jp/research/rsupport/" target="_blank">男女共同参画推進／リサーチライフサポート室</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="nav04">
+										<a href="/international2/"><span class="gnav-title">国際展開・留学</span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<div class="detail">
+													<div class="l-frame">
+														<div class="pickup">
+															<p class="photo"><img alt="Global Initiative" src="/common/images_j/common/img_header_kokusai.jpg" width="230"></p>
+															<p class="link"><a href="/international2/global_initiative/">Global Initiative</a></p>
+														</div>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">核となるグローバルの取り組み</span>
+																<ul>
+																	<li><a href="/international2/global_initiative/">Global Initiative</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/rsgu/" target="_blank">SGU</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul>
+															<li><span class="title1">国際展開について</span>
+																<ul>
+																	<li><a href="/international2/intl_collaboration/">国際連携</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/intl/" target="_blank">国際協力・貢献</a></li>
+																	<li><a href="/international2/intl_program/">世界展開力強化事業・キャリアプログラム</a></li>
+																	<li><a href="/international2/offices/">海外拠点</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">海外留学・日本への留学</span>
+																<ul>
+																	<li><a href="/international2/studyabroad/">海外留学について</a></li>
+																	<li><a href="/international2/study_abroad/">日本への留学について</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul class="other-link">
+															<li><a class="pdf" href="/common/pdf_j/2015.05.01_RU_partner_universities_and_Institutions.pdf" target="_blank">海外協定校一覧</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul class="other-link">
+<li><a href="/international2/history/">立命館大学国際化の歩み</a></li>
+															<li><a href="/international2/intl_committee/">国際教育推進機構教員</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/acd/in/cger/kunl/" target="_blank">京都国連寄託図書館</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/confucius/" target="_blank">立命館孔子学院</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="nav05">
+										<a href="/lifecareer/"><span class="gnav-title">学生生活・就職</span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<div class="detail">
+													<div class="l-frame">
+														<div class="pickup">
+															<p class="photo"><img alt="学生スポーツ＆カルチャー" src="/common/images_j/common/img_header_gakuseiseikatsu.jpg" width="230"></p>
+															<p class="link"><a class="blank" href="/sports-culture/" target="_blank">学生スポーツ＆カルチャー</a></p>
+														</div>
+														<ul>
+															<li><span class="title1">奨学金制度</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/scholarship/" target="_blank">奨学金制度（学部生対象）</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ru_gr/g-career/fellow/" target="_blank">奨学金制度（大学院生対象）</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul class="other-link">
+															<li><a href="/lifecareer/social/support/">進路・就職支援</a></li>
+															<li><a class="blank" href="/sports-culture/" target="_blank">学生スポーツ＆カルチャー</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">グローバル視点で学ぶ</span>
+																<ul>
+																	<li><a href="/international2/studyabroad/">海外留学</a></li>
+																	<li><a class="blank" href="/gengo/" target="_blank">言語教育センター（正課）</a></li>
+																	<li><a class="blank" href="/gengo/cla/" target="_blank">言語習得センター（正課外）</a></li>
+																	<li><a href="/international2/intl_exchanges/lounge/">国際交流ラウンジ</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/confucius/" target="_blank">立命館孔子学院</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">社会との関係を深める</span>
+																<ul>
+																	<li><a href="/lifecareer/social/support/">進路・就職支援</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/slc/" target="_blank">ボランティアをする</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/internship/" target="_blank">インターンシップに参加する</a></li>
+																	<li><a href="/lifecareer/social/licence/">資格を取る</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul>
+															<li><span class="title1">交流・活動する</span>
+																<ul>
+																	<li><a href="/lifecareer/activity/activities/">サークル・課外活動</a></li>
+																	<li><a class="blank" href="/sports-culture/" target="_blank">学生スポーツ＆カルチャー</a></li>
+																	<li><a href="/lifecareer/activity/peer/">学生どうしによるピア・サポート</a></li>
+																	<li><a href="/lifecareer/activity/facility/">学生関連施設<br>
+セミナーハウス・体育館・学生会館</a></li>
+																	<li><a href="/lifecareer/activity/campus-info/">キャンパスの情報化</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">安心・安全な学生生活を送る</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/scholarship/" target="_blank">奨学金制度</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ssr/" target="_blank">学生サポートルーム</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/mng/gl/hoken/medical-j.html" target="_blank">保健センター</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/drc/" target="_blank">障害学生支援室</a></li>
+<!--
+																	<li><a href="/lifecareer/support/follow/">特別ニーズ学生支援</a></li>
+-->
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/mng/gl/jinji/harass/index.html" target="_blank">ハラスメントの相談</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul class="other-link">
+															<li><a href="/lifecareer/no_smoke/">キャンパス全面禁煙化</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="nav06">
+										<a href="/community_affiliations/"><span class="gnav-title">社会・地域連携</span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<div class="detail">
+													<div class="l-frame">
+														<div class="pickup">
+															<p class="photo"><img alt="社会・地域連携方針について" src="/common/images_j/common/img_header_shakai.jpg" width="230"></p>
+															<p class="link"><a href="/community_affiliations/policy/">社会・地域連携方針について</a></p>
+														</div>
+														<ul class="other-link mb">
+															<li><a href="/community_affiliations/policy/">社会・地域連携方針について</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/fukkor/" target="_blank">災害復興支援について</a></li>
+														</ul>
+														<ul>
+															<li><span class="title1">社会・地域連携の取り組み</span>
+																<ul>
+																	<li><a href="/community_affiliations/kyoto/">京都</a></li>
+																	<li><a href="/community_affiliations/shiga/">滋賀</a></li>
+																	<li><a href="/community_affiliations/ibaraki/">大阪</a></li>
+																	<li><a href="/community_affiliations/other/">その他</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">科目等履修・聴講制度</span>
+																<ul>
+																	<li><a href="/academics/auditing/">科目等履修・聴講制度</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/ru_gr/g-career/stepup/bousai.html/" target="_blank">「文化遺産防災学　教育プログラム」科目等履修</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul>
+															<li><span class="title1">公開講座・生涯学習</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/acd/re/k-rsc/kikou/doyokozakikoh.htm" target="_blank">立命館土曜講座</a></li>
+																	<li><a href="/community_affiliations/course/bkc/">立命館びわこ講座</a></li>
+																	<li><a href="/community_affiliations/course/oic/">立命館大学大阪いばらきキャンパス（OIC）講座</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/osakaumedacampus/openclass/" target="_blank">大阪梅田キャンパス公開講座</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/tokyocampus/course_guide/" target="_blank">東京キャンパス公開講座</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/saionji-juku/" target="_blank">立命館西園寺塾</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/confucius/" target="_blank">立命館孔子学院講座</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/gengo/cla/" target="_blank">言語習得センター</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/acr/" target="_blank">立命館アカデミックセンター</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">大学施設の利用について</span>
+																<ul>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/library/" target="_blank">図書館</a></li>
+																	<li><a class="blank" href="http://www.ritsumei.ac.jp/mng/er/wp-museum/index.html" target="_blank">国際平和ミュージアム</a></li>
+																	<li><a href="/community_affiliations/institution/kinugasa/">衣笠キャンパス施設利用について</a></li>
+																	<li><a href="/community_affiliations/institution/bkc/">びわこ・くさつキャンパス施設利用について</a></li>
+																	<li><a class="blank" href="/futureplaza/" target="_blank">大阪いばらきキャンパス施設利用について（立命館いばらきフューチャープラザ）</a></li>
+																	<li><a href="/community_affiliations/institution/oic/a-c/">大阪いばらきキャンパス施設利用について（A棟・C棟）</a></li>
+																</ul>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="detail">
+													<div class="l-frame">
+														<ul>
+															<li><span class="title1">キャンパス見学について</span>
+																<ul>
+																	<li><a class="blank" href="http://ritsnet.ritsumei.jp/event/visits.html" target="_blank">キャンパス見学について（高校・保護者の方）</a></li>
+																	<li><a href="/community_affiliations/visit/">キャンパス見学について（高校・保護者以外の方）</a></li>
+																</ul>
+															</li>
+														</ul>
+														<ul class="other-link">
+															<li><a href="/community_affiliations/chiiki/">学生との地域交流のご案内</a></li>
+															<li><a class="blank" href="http://koudai.ac.jp/index.html" target="_blank">高大連携について</a></li>
+															<li><a href="/research/collaboration2/headquaters/">産学官連携について</a></li>
+															<li><a class="blank" href="http://www.ritsumei.ac.jp/slc/" target="_blank">ボランティア・サービスラーニングについて</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<ul class="school-list">
+								<li class="btn-down acc-btn"><a href="">立命館学園</a>
+									<ul class="acc-body">
+										<li><a href="http://www.apu.ac.jp/home/" target="_blank">立命館アジア太平洋大学</a></li>
+										<li><a href="http://www.ritsumei.ac.jp/fkc/" target="_blank">立命館中学校・高等学校</a></li>
+										<li><a href="http://www.ujc.ritsumei.ac.jp/ujc/" target="_blank">立命館宇治中学校・高等学校</a></li>
+										<li><a href="http://www.spc.ritsumei.ac.jp/" target="_blank">立命館慶祥中学校・高等学校</a></li>
+										<li><a href="http://www.ritsumei.ac.jp/mrc/" target="_blank">立命館守山中学校・高等学校</a></li>
+										<li><a href="http://www.ritsumei.ac.jp/primary/" target="_blank">立命館小学校</a></li>
+										<li><a href="http://www.ritsumei.ac.jp/ikkan/" target="_blank">立命館の一貫教育</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="school-btn">
+								<li><a href="http://www.ritsumeikan-trust.jp/publicinfo/disclosure/">情報公開</a></li>
+								<li><a href="http://www.ritsumeikan-trust.jp/publicinfo/recruitment/" target="_blank">採用情報</a></li>
+								<li><a href="http://www.ritsumeikan-trust.jp/info/" target="_blank">学校法人立命館</a></li>
+							</ul>
+							<div class="ohter-nav">
+								<ul class="link-list">
+									<li><a href="/accessmap/"><img alt="アクセス" src="/common/images_j/common/icon_access_x2.png"><span class="text">アクセス</span></a></li>
+									<li><a href="/campusmap/"><img alt="キャンパスマップ" src="/common/images_j/common/icon_campus_x2.png"><span class="text">キャンパスマップ</span></a></li>
+									<li><a href="/inquiry/"><img alt="お問い合わせ" src="/common/images_j/common/icon_contact_x2.png"><span class="text">お問い合わせ</span></a></li>
+								</ul>
+								<ul class="active-list">
+									<li class="language">
+										<a href="#"><span class="jp">Japanese</span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<ul>
+													<li><a class="blank" href="http://en.ritsumei.ac.jp/" target="_blank">ENGLISH</a></li>
+													<li><a class="pdf" href="/common/pdf/crossroads_cn.pdf" target="_blank">CHINESE</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="search">
+										<a href="#"><span class="loupe"><img alt="検索" src="/common/images_j/common/icon_search.png"></span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<div class="search-area">
+													<form id="searchbox_013678348108085708962:nemaxsf7zhg" action="http://www.ritsumei.ac.jp/search/">
+														<fieldset>
+															<legend accesskey="0">立命館大学サイト内検索フォーム</legend>
+															<p class="txt-l">
+																<input name="cx" value="013678348108085708962:nemaxsf7zhg" type="hidden">
+																<input name="cof" value="FORID:11" type="hidden">
+																<input name="q" tabindex="1" class="focusArea" accesskey="s" value="" type="text">
+																<input name="imageField" tabindex="2" class="bt" accesskey="k" value="SEARCH" type="submit">
+															</p>
+														</fieldset>
+													</form>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="font">
+										<a href="#"><span class="font-a"><img alt="フォント" src="/common/images_j/common/icon_font.png"></span></a>
+										<div class="nav-details">
+											<div class="details-wrap">
+												<ul>
+													<li data-font-size="font-small"><a href="#">小</a></li>
+													<li data-font-size="font-normal"><a href="#">中</a></li>
+													<li data-font-size="font-large"><a href="#">大</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<p class="close-btn" data-button="main-btn"><span>CLOSE</span></p>
+						</div>
+					</div>
+				</div>
+				<nav class="sub-nav">
+					<div class="fixed-frame">
+						<ul class="target-list">
+							<li><a href="/admission-student/">受験生の方</a></li>
+							<li><a href="/infostudents2/">在学生の方</a></li>
+							<li><a class="blank" href="http://www.ritsumei-fubo.com/" target="_blank">保護者の方</a></li>
+							<li><a class="blank" href="http://alumni.ritsumei.jp/" target="_blank">卒業生の方</a></li>
+							<li><a href="/public/">一般・企業の方</a></li>
+							<li><a class="blank" href="http://www.ritsumei.ac.jp/giving/" target="_blank">ご支援をお考えの方</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<div class="g-contents">
+			<main role="main">
+				<article>
+					<div class="main-contents type1">
+						<div class="research-list type2">
+							<h2 class="research-title"><span>ご指定のページが見つかりませんでした</span></h2>
+							<div class="mod-wysiwyg">
+								<p>お探しのページは見つかりません。<br>
+								一時的にアクセスできない状態か、移動もしくは削除されてしまった可能性があります。</p>
+							</div>
+							
+							<div class="image-list link lg">
+								<div class="image-set is-center" style="max-width: 340px;">
+									<a href="/">立命館大学トップページへ</a>
+								</div>
+								<div class="image-set is-center" style="max-width: 340px;">
+									<a target="_blank" class="blank" href="/sports-culture/">スポーツ&amp;カルチャートップページへ</a>
+								</div>
+							</div>
+							
+							<h2 class="research-title"><span>Sorry, but nothing exists here.</span></h2>
+							<div class="mod-wysiwyg">
+								<p>We can't find the URL you are attempting to access.<br>
+								Please click here to go to the site TOP or English page.</p>
+							</div>
+							<div class="image-list link lg">
+								<div class="image-set is-center" style="max-width: 340px;">
+									<a target="_blank" class="blank" href="http://en.ritsumei.ac.jp/">Ritsumeikan University TOP</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+
+				<p id="pagetop"><a href="#g-wrapper"><img alt="ページトップへ" src="/common/images_j/common/btn_pagetop_x2.png" /></a></p>
+			</main>
+		</div>
+		<footer class="global">
+			<div class="l-contents">
+				<div class="social-area">
+					<div class="l-frame">
+						<h2 class="heading"><img src="/common/images_j/common/tit_social.png" alt="OFFICIAL ACCOUNT"></h2>
+						<div class="list-set">
+							<ul class="list">
+								<li class="fb"><a target="_blank" href="https://www.facebook.com/ritsumeikanuniversity"><img src="/common/images_j/common/btn_facebook.png" alt="Facebook"></a></li>
+								<li class="youtube"><a target="_blank" href="https://www.youtube.com/user/ritsumeikanu"><img src="/common/images_j/common/btn_youtube.png" alt="youtube"></a></li>			
+								<li class="list-btn"><a href="/socialmedia/"><img src="/common/images_j/common/btn_sns_list.png" alt="SNS一覧"></a></li>
+							</ul>
+						</div>
+						</div>
+				</div>
+				<div class="list-area l-frame">
+					<div class="picup-area">
+						<ul class="list">
+							<li><a target="_blank" href="/sports-culture/"><img src="/common/images_j/common/bnr_sports.png" alt="SPORTS＆CULTURE"></a></li>
+							<li><a href="/profile/features/"><img src="/common/images_j/common/bnr_feature.png" alt="FEATURE 特集一覧"></a></li>
+							<li><a href="http://www.ritsumeikan-trust.jp/info/" target="_blank"><img src="/common/images_j/common/bnr_ritsumei_corporation.png" alt="学校法人立命館"></a></li>
+						</ul>
+					</div>
+					<div class="center-area">
+						<div class="navigation-area">
+							<h2 class="heading"><img src="/common/images_j/common/tit_navigation.png" alt="NAVIGATION"></h2>
+							<ul class="list">
+								<li><a href="/admission-student/">受験生の方</a></li>
+								<li><a href="/infostudents2/">在学生の方</a></li>
+								<li><a target="_blank" class="blank" href="http://www.ritsumei-fubo.com/">保護者の方</a></li>
+								<li><a target="_blank" class="blank" href="http://alumni.ritsumei.jp/">卒業生の方</a></li>
+								<li><a href="/public/">一般・企業の方</a></li>
+								<li><a target="_blank" class="blank" href="http://www.ritsumei.ac.jp/giving/">ご支援をお考えの方</a></li>
+							</ul>
+							<ul class="list">
+								<li><a target="_blank" class="blank" href="http://www.ritsumei.ac.jp/portal/">教職員ポータル / Faculty & Staff Portal System</a></li>
+							</ul>
+						</div>
+						<div class="quicklinks-area">
+							<h2 class="heading"><img src="/common/images_j/common/tit_quicklinks.png" alt="QUICK LINKS"></h2>
+							<ul class="list">
+								<li><a href="http://ritsnet.ritsumei.jp/" target="_blank" class="blank">立命館大学入試情報サイト</a></li>
+								<li><a href="http://research-db.ritsumei.ac.jp/scripts/websearch/index.htm" target="_blank" class="blank">研究者データベース</a></li>
+								<li><a href="/accessmap/">アクセス</a></li>
+								<li><a href="/campusmap/">キャンパスマップ</a></li>
+								<li><a href="http://www.ritsumeikan-trust.jp/publicinfo/recruitment/" target="_blank" class="blank">採用情報</a></li>
+
+								<li><a href="/inquiry/">お問い合わせ</a></li>
+								<li><a href="http://en.ritsumei.ac.jp/" target="_blank" class="blank">ENGLISH</a></li>
+								<li><a href="/common/pdf/crossroads_cn.pdf" target="_blank" class="pdf">CHINESE</a></li>
+								<li><a href="/sitemap/">サイトマップ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="right-area">
+						<div class="search-area">
+							<h2 class="heading"><img src="/common/images_j/common/tit_search.png" height="18" alt="SEARCH"></h2>
+							<form id="searchbox_013678348108085708962:nemaxsf7zhg" action="http://www.ritsumei.ac.jp/search/">
+								<fieldset>
+									<legend accesskey="0">立命館大学サイト内検索フォーム</legend>
+									<p class="txt-l">
+									<input type="hidden" name="cx" value="013678348108085708962:nemaxsf7zhg">
+									<input type="hidden" name="cof" value="FORID:11">
+									<input type="text" value="" name="q" tabindex="1" accesskey="s" class="focusArea"> <input type="submit" name="imageField" value="SEARCH" tabindex="2" accesskey="k" class="bt"></p>
+								</fieldset>
+							</form>
+						</div>
+						<div class="banner-area">
+							<ul>
+								<li><a target="_blank" href="http://www.ritsumei.ac.jp/rsgu/"><img src="/common/images_j/common/bnr_topglobal.png" alt="TOP GLOBAL UNIVERSITY JAPAN"></a></li>
+								<li><a href="/profile/info/assessment/#section3" target="_blank"><img src="/common/images_j/common/bnr_university.png" alt="UNIVERSITY ACCREDITED 2012.4-2019.3"></a></li>
+								<li><a target="_blank" href="http://www.ritsumei.ac.jp/bb/"><img src="/common/images_j/common/bnr_beyondborders.png" alt="Beyond Borders"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="foot-area">
+				<div class="l-frame">
+					<ul class="foot-link">
+						<li><a href="/sitepolicy/">このサイトについて</a></li>
+						<li><a href="/privacypolicy/">プライバシーポリシー</a></li>
+						<li><a href="/link/">関連リンク</a></li>
+					</ul>
+					<p class="copyright">&copy; Ritsumeikan Univ. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/common/js_j/jquery-1.11.3.min.js"><\/script>')</script>
+<script type="text/javascript" src="/common/js_j/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/common/js_j/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/common/js_j/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js_j/fresco/fresco.js"></script>
+<script type="text/javascript" src="/common/js_j/functions.js"></script>
+</body>
+</html>
+

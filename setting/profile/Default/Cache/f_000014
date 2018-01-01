@@ -1,0 +1,1362 @@
+
+@charset "utf-8";
+
+/*******************************************************************************
+*      
+*  Web Site  : http://www.ritsumei.ac.jp/library/
+*  Modified  : 2011.02.17
+*  lastUpdate  : 2016.3.22
+*  File         :  lib.css
+*  Description : 立命館大学 基本レイアウト用CSS
+*
+*******************************************************************************/
+
+/* General
+*******************************************************************************/
+
+
+html {
+	font-size:62.5%;
+	_font-size:100%;
+}
+
+body { background:#fff;}
+
+body h2 { 
+	color: #000000;
+	font-size: 2.2em;
+	line-height: 120%;
+	padding-bottom:20px;
+	display:block;
+}
+
+body h3 {
+	border-left: 5px solid #000000;
+	color: #000000;
+	font-size: 1.8em;
+	padding-left: 10px;
+	margin: 30px 0 15px 0;
+}
+body h4 {
+	font-size: 1.6em;
+	margin: 0 0 7px 0;
+	padding: 0 0 3px 0;
+	border-bottom: 1px solid #cccccc;
+}
+/*body img { display: none; }*/
+
+h3,h4,h5,h6,p,address,th,td,dt,dd,a{
+	font-size: 1.4em;
+	line-height: 150%;
+}
+
+ul li ,ol li ,p ,dd p ,li p ,table td li a ,div ul li{
+	font-size: 1.3em;
+	line-height: 150%;
+}
+
+ul li ul li{
+	font-size: 1.0em;
+}
+
+/*a link*/
+a {
+    color:#004DB5;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*p*/
+#main p, #all_main p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* css text switch */
+
+#header #n_text{
+	display:none;
+}
+
+
+/* header */
+#header {
+	background: #4E454A;
+	padding:10px;
+	margin:0 0 20px 0;
+	border-bottom:#BDBDBD solid 4px;
+}
+
+#header h1 {
+	font-size:3.0em;
+	float:left;
+	padding:1px 0;
+}
+
+#header h1 a{
+	color:#fff;
+}
+
+#header a {
+    color:#FFDF00;
+    text-decoration: underline;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+#header h1 a{
+	text-decoration: none;
+}
+
+#header h1 a:hover{
+	text-decoration:underline;
+}
+
+
+/* utility_navigation */
+#utility_navigation{
+	clear:both;
+}
+
+#utility_navigation ul li{
+	display:inline;
+	padding-right:10px;
+}
+
+/* header_btn_nav */
+#header_btn_nav {
+	float:left;
+	padding-right:10px;
+}
+
+#header_btn_nav ul{
+	font-size:0.9em;
+}
+
+/* searchbox */
+#searchbox {
+	float:left;
+	padding-right:10px;
+}
+
+/* department_textNav */
+#header #department_textNav{
+	clear:both;
+	font-size:1.8em;
+	float:left;
+	padding-top:10px;
+}
+
+#header #department_textNav ul li{
+	display:inline;
+	padding-right:30px;
+	font-size:1.0em;
+}
+
+/* department_navigation */
+#header #department_navigation{
+	display: none;
+}
+
+
+/* global_navigation */
+
+#global_navigation ul{
+	float:right;
+}
+
+#global_navigation ul li{
+	display:inline;
+	padding-right:10px;
+	font-size:1.0em;
+}
+
+/*content*/
+#main, #all_main {
+	padding:10px;
+}
+
+#main ul { margin: 0 0 30px 0; }
+#main ul li {
+	list-style: disc outside;
+	margin: 0 0 2px 20px;
+}
+
+body.riyou_time #main ul li ,body.navi #main ul li ,body.shisetsu #main ul li{
+	list-style:none;
+}
+
+#main img {
+	display:none;
+}
+
+/*content*/
+.section{
+	margin-bottom:40px;
+}
+
+/* footer */
+#footer {
+	background: #4E454A;
+	padding:10px;
+	margin:0 0 20px 0;
+	border-top:#BDBDBD solid 4px;
+}
+
+#footer p {
+	color:#FFF;
+}
+
+#footer #back_to_top{
+	float:right;
+	}
+
+#footer a {
+    color:#FFDF00;
+    text-decoration: underline;
+}
+
+#footer #footer_sup_nav ul li {
+	display:inline;
+	padding:0 10px 0 0;
+}
+
+/* table */
+table {
+	background:#000;
+	margin-bottom:40px;
+}
+
+table, th, td {
+	padding:10px;
+	color:#FFF;
+	border-bottom:#FFF solid 3px;
+	border-right:#FFF solid 3px;
+}
+
+table a{
+	color:#F00
+}
+
+/* sub */
+#sub{
+	background:#3c3c3c;
+	padding: 15px 10px;
+	
+}
+
+#sub h2{
+	color: #FF0;
+}
+
+sub
+#sub #local_nav ul li ul li ul { margin: 2px 0 20px 0; }
+
+#sub #local_nav ul li {
+	list-style: disc outside;
+	margin: 0 0 2px 20px;
+	color:#FF0;
+}
+
+#sub #local_nav ul li a{
+	color:#fff;
+}
+
+
+
+
+
+/* home
+*******************************************************************************/
+
+
+/* flash box */
+#flashbox{ display:none}
+
+/* flash box */
+body.home .news_banner_top{
+	margin-bottom:0;
+}
+
+body.home .news_banner_top p{
+	padding:0 0 0 15px;
+background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 1px transparent;
+}
+
+
+
+
+/* home_search */
+
+body.home #main #home_search dl{
+border-bottom:1px solid #000000;
+margin: 0 0 30px 0;
+}
+
+body.home #main #home_search dl dt {
+font-weight: bold;
+margin: 0 0 5px;
+}
+
+/* news */
+
+body.home #main #home_news ul {
+border-bottom: 1px solid #000000;
+}
+
+
+body.home #main #home_news{
+border-top: 1px solid #000000;
+}
+
+
+#main #home_news ul {
+background: none repeat scroll 0 0 #FFFFFF;
+border-bottom: 1px solid #D7D7D7;
+border-top: 1px solid #D7D7D7;
+overflow: auto;
+padding: 5px 0;
+}
+#main #home_news ul li {
+margin: 0;
+padding:10px 5px 10px 5px;
+background: url("/ir/global/common/img/line-dot.gif") repeat-x scroll 0 bottom transparent;
+clear:both;
+_zoom:1;
+}
+
+#main #home_news ul li.lastChild {
+	background:none;
+}
+
+#main #home_news ul li a span.date {
+	vertical-align: top;
+	float:left;
+	display:block;
+	padding-right:60px;
+	color:#000;
+	cursor:default;
+}
+
+#main #home_news ul li a span.news {
+text-align:left;
+}
+
+
+
+
+/* staff */
+
+body.home #main #home-staff{
+padding:0;
+}
+
+body.home #main #home-staff a{
+padding:0;
+}
+
+
+/* ask
+*******************************************************************************/
+
+/*refsrv*/
+
+.ask #main p.ttl {
+margin: 0 0 20px;
+color: #0382DC;
+font-size: 2.0em;
+font-weight: bold;
+line-height: 1.3;
+padding: 3px 10px 2px 0;
+}
+
+/*format_sample*/
+
+.format_sample #main blockquote p{
+font-size:12px;
+}
+
+.format_sample #main blockquote{
+background:#FFF;
+}
+
+.format_sample #main blockquote .bsc table th{
+text-align:left;
+width:200px;
+}
+
+
+
+/*faq*/
+.faq #main .acdBox {
+border-bottom: 1px solid #DCDCDC;
+margin: 0;
+padding: 0;
+}
+
+.faq #main .acdBox h5 {
+border: medium none;
+font-size: 1.5em;
+font-weight: bold;
+margin: 0;
+padding: 0;
+color:#000;
+}
+
+.faq #main .acdBox h5 a {
+color: #0382DC;
+cursor: pointer;
+display: block;
+padding: 11px 0 10px 0px;
+text-decoration: none;
+width: 590px;
+font-size:1.5em;
+}
+.faq #main .acdBox h5 a:hover {
+
+color: #FF0000;
+text-decoration: none;
+}
+.faq #main .acdBox h5.active a {
+color: #333333;
+}
+.faq #main .acdBox h5.active a:hover {
+background-color: #FFFFFF;
+color: #FF0000;
+text-decoration: none;
+}
+.faq #main .acdBody {
+background: no-repeat scroll 7px 10px #F5F5F5;
+border-top: 1px dotted #DCDCDC;
+display: none;
+margin: 0;
+padding: 10px 20px 3px 0px;
+overflow: auto;
+}
+
+.faq #main .acdBody span.answer {
+font-size:1.5em;
+color:#F00;
+font-weight: bold;
+}
+
+.faq #main .acdBody h5 {
+margin: 0 0 10px;
+padding: 0;
+font-size:1.5em;
+}
+.faq #main .acdBody h6 {
+margin: 0;
+padding: 0;
+}
+.faq #main .acdBody ol li ol {
+margin: 8px 0 30px;
+}
+.faq #main .acdBody ol li ol li {
+margin: 0 0 5px 22px;
+padding: 0;
+}
+.faq #main .acdBody ul {
+margin: 0 0 10px 15px;
+}
+.faq #main .acdBody ul li {
+list-style: disc outside none;
+background:none;
+margin: 0;
+padding: 0;
+}
+.faq #main .acdBody ul.link_list {
+margin: 0 0 15px;
+padding: 0;
+}
+.faq #main .acdBody ul.link_list li {
+list-style: none outside none;
+margin: 0;
+padding: 0;
+}
+.faq #main .acdBox tbody th {
+background: none repeat scroll 0 0 #FFFFFF;
+}
+.faq #main table.green tbody th {
+background: none repeat scroll 0 0 #28B5B5;
+}
+.faq #main .acdBox tfoot th {
+background: none repeat scroll 0 0 #FFFFFF;
+}
+
+/* search
+*******************************************************************************/
+
+body.search #main ul li{
+	list-style:none;
+}
+
+body.search #main ul li {
+background: none repeat scroll 0 0 transparent;
+border-top: 9px solid #D8D8D8;
+height: auto !important;
+margin: 0;
+min-height: 145px;
+padding: 0 0 40px;
+position: relative;
+}
+body.search #main ul li ul {
+margin: 8px 0;
+}
+body.search #main ul li ul li {
+background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 1px transparent;
+border-top: medium none;
+height: auto !important;
+margin-bottom: 1px;
+min-height: 5px;
+padding: 0 0 0 15px;
+}
+body.search #main ul li p.ttl {
+border-bottom: 1px solid #CBCBCB;
+clear: none;
+font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","ＭＳ Ｐゴシック",Helvetica,Arial,sans-serif;
+font-size: 1.167em;
+font-weight: bold;
+margin-bottom: 10px;
+padding: 10px 5px 7px 0;
+text-align:left;
+color:#0382DC;
+}
+body.search #main ul li p.ttl a:hover {
+color: #990000;
+text-decoration: none;
+}
+body.search #main ul li p.ttl.no-link {
+color: #000000;
+padding: 10px 5px 7px 3px;
+}
+body.search #main ul li p {
+font-size: 1em;
+margin-bottom: 10px;
+}
+
+body.search #main ul li .thumb {
+left: 0;
+position: absolute;
+top: 0;
+_top:10px;
+}
+
+
+/* service
+*******************************************************************************/
+body.service #main ol {
+margin-left: 30px;
+}
+
+body.service #main ol li {
+list-style-position: outside;
+margin-bottom: 10px;
+}
+
+/*guidance*/
+
+.guidance_detection #main #guidance_campus_list {
+margin: 0 0 40px;
+padding: 0;
+}
+
+.guidance_detection #main #guidance_campus_list li {
+background: none repeat scroll 0 0 transparent;
+margin-bottom: 10px;
+padding: 0 10px 0 0;
+}
+
+.guidance_detection #main #guidance_campus_list li a {
+display: block;
+}
+
+.guidance_detection ul.spancolor li span{
+color:#0382DC;
+font-weight:bold;
+}
+
+/*guidance*/
+
+body.service div.bsc table.shikaku th {
+width: 200px;
+}
+
+
+div.bsc table.syozosiryo {
+margin-bottom: 10px;
+}
+
+body.riyou_time #main ul li{
+	list-style:none;
+}
+
+body.riyou_time #main ul {
+_padding-bottom:40px;
+}
+
+
+body.riyou_time #main ul li {
+background: none repeat scroll 0 0 transparent;
+border-top: 9px solid #D8D8D8;
+height: auto !important;
+margin: 0;
+min-height: 145px;
+padding: 0 0 40px;
+position: relative;
+}
+body.riyou_time #main ul li ul {
+margin: 8px 0;
+}
+body.riyou_time #main ul li ul li {
+background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 1px transparent;
+border-top: medium none;
+height: auto !important;
+margin-bottom: 1px;
+min-height: 5px;
+padding: 0 0 0 15px;
+}
+body.riyou_time #main ul li p.campus {
+border-bottom: 1px solid #CBCBCB;
+clear: none;
+font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","ＭＳ Ｐゴシック",Helvetica,Arial,sans-serif;
+font-size: 1.167em;
+font-weight: bold;
+margin-bottom: 10px;
+padding: 10px 5px 7px 0;
+text-align:left;
+color:#0382DC;
+}
+body.riyou_time #main ul li p.campus a:hover {
+color: #990000;
+text-decoration: none;
+}
+body.riyou_time #main ul li p.campus.no-link {
+color: #000000;
+padding: 10px 5px 7px 3px;
+}
+body.riyou_time #main ul li p {
+font-size: 1em;
+margin-bottom: 10px;
+}
+
+body.riyou_time #main ul li .thumb {
+left: 0;
+position: absolute;
+top: 0;
+_top:10px;
+}
+
+
+
+/* collection
+
+*******************************************************************************/
+
+/*collection*/
+
+.collection_paper_title {
+margin:0;
+padding:0;
+font-size:2.0em;
+}
+
+.collection_paper_contents {
+margin:0;
+padding:0;
+}
+
+.collection_paper_box {
+padding: 15px 15px 50px;
+}
+
+/*digital_collection*/
+
+.digital_paper_title{
+	font-size:2.0em;
+margin:0;
+padding:0;
+}
+
+.digital_paper_contents {
+margin:0;
+padding:0;
+}
+
+.digital_paper_box {
+padding: 15px 15px 50px;
+}
+
+
+.digital_collection #main ol, .digital_collection #main ul, .digital_collection #main dl {
+font-size: 1em;
+margin-bottom: 20px;
+}
+
+
+
+/*kato_teacher*/
+
+.kato_paper_title {
+font-size:2.0em;
+margin:0;
+padding:0;
+}
+
+.kato_paper_contents {
+margin:0;
+padding:0;
+}
+
+.kato_paper_box {
+padding: 15px 15px 50px;
+}
+
+.kato_teacher #main h3 {
+border-left: 10px solid #990000;
+clear: both;
+font-size: 1.4em;
+font-weight: bold;
+line-height: 1.3;
+margin: 40px 0 15px;
+padding: 7px 10px 6px 13px;
+}
+
+.kato_collection .katoNews ul li{
+  padding: 10px 5px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.kato_collection .katoNews ul li .date{
+  padding-right: 60px;  
+}
+
+
+/* guide
+*******************************************************************************/
+
+/*history*/
+
+.history #main h5{
+font-size:13px;
+font-weight:bold;
+margin:0;
+padding:5px 0;
+}
+
+.history div.bsc table th{
+text-align:center;
+width:100px;
+}
+
+/*guideline*/
+
+.guideline #sec01, .guideline #sec02, .guideline #sec03, .guideline #sec04, .guideline #sec05, .guideline #sec06, .guideline #sec07, .guideline #sec08, .guideline #sec09, .guideline #sec10, .guideline #sec11, .guideline #sec12,
+.guideline #sec13, .guideline #sec14, .guideline #sec15, .guideline #sec16, .guideline #sec17, .guideline #sec18, .guideline #sec19, .guideline #sec20, .guideline #sec21, .guideline #sec22 {
+margin: 0 0 50px 15px;
+}
+.guideline #main ul {
+list-style-position: outside;
+margin: 0 0 15px 3px;
+padding: 0 0 0 62px;
+}
+
+.guideline #main ol {
+list-style-position: outside;
+padding: 0 0 0 30px;
+}
+
+.guideline #main ul li {
+margin: 0 0 5px;
+_margin: 0;
+_padding:0;
+list-style-type:none;
+background:none;
+}
+
+
+
+.guideline #main .itemList li span {
+display: block;
+float: left;
+margin: 0 0 0 -60px;
+_margin: 0 0 0 -32px;
+padding: 0;
+text-align: left;
+width: 60px;
+}
+
+
+.guideline #main ul ol li {
+background: none repeat scroll 0 0 transparent;
+list-style-position: outside;
+list-style-type: decimal;
+margin-bottom: 3px;
+}
+
+.guideline #main ol.list li {
+background: none repeat scroll 0 0 transparent;
+list-style-position: outside;
+list-style-type: decimal;
+}
+
+.guideline #main li table{
+	font-size:0.6em;
+}
+
+/*navi*/
+
+body.navi #main ul li {
+background: none repeat scroll 0 0 transparent;
+border-top: 9px solid #D8D8D8;
+height: auto !important;
+margin: 0;
+min-height: 145px;
+padding: 0 0 40px;
+position: relative;
+}
+body.navi #main ul li ul {
+margin: 8px 0;
+}
+body.navi #main ul li ul li {
+background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 1px transparent;
+border-top: medium none;
+height: auto !important;
+margin-bottom: 1px;
+min-height: 5px;
+padding: 0 0 0 15px;
+}
+body.navi #main ul li p.navi_ttl {
+border-bottom: 1px solid #CBCBCB;
+clear: none;
+font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","ＭＳ Ｐゴシック",Helvetica,Arial,sans-serif;
+font-size: 1.167em;
+font-weight: bold;
+margin-bottom: 10px;
+padding: 10px 5px 7px 0;
+text-align:left;
+color:#0382DC;
+}
+body.navi #main ul li p.navi_ttl a:hover {
+color: #990000;
+text-decoration: none;
+}
+body.navi #main ul li p.navi_ttl.no-link {
+color: #000000;
+padding: 10px 5px 7px 3px;
+}
+body.navi #main ul li p {
+font-size: 1em;
+margin-bottom: 10px;
+}
+
+body.navi #main ul li .thumb {
+left: 0;
+position: absolute;
+top: 0;
+_top:10px;
+}
+
+/*shisetsu*/
+
+
+.shisetsu #main ul.table {
+_padding-bottom:40px;
+margin-bottom:0;
+}
+
+
+.shisetsu #main ul.table li {
+background: none repeat scroll 0 0 transparent;
+border-top: 9px solid #D8D8D8;
+height: auto !important;
+margin: 0;
+padding: 0;
+position: relative;
+}
+.shisetsu #main ul.table li ul {
+margin: 8px 0;
+}
+.shisetsu #main ul.table li ul li {
+background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 1px transparent;
+border-top: medium none;
+height: auto !important;
+margin-bottom: 1px;
+min-height: 5px;
+padding: 0 0 0 15px;
+}
+.shisetsu #main ul.table li p.campus {
+border-bottom: 1px solid #CBCBCB;
+clear: none;
+font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","ＭＳ Ｐゴシック",Helvetica,Arial,sans-serif;
+font-size: 1.167em;
+font-weight: bold;
+margin-bottom: 10px;
+padding: 10px 5px 7px 0;
+text-align:left;
+color:#0382DC;
+}
+.shisetsu #main ul.table li p.campus a:hover {
+color: #990000;
+text-decoration: none;
+}
+.shisetsu #main ul.table li p.campus.no-link {
+color: #000000;
+padding: 10px 5px 7px 3px;
+}
+.shisetsu #main ul.table li p {
+font-size: 1em;
+margin-bottom: 10px;
+}
+
+.shisetsu #main ul.table li .thumb {
+left: 0;
+position: absolute;
+top: 0;
+_top:10px;
+}
+
+
+.shisetsu_paper_title {
+margin:0;
+padding:0;
+height:45px;
+width:510px;
+position:relative;
+}
+
+.shisetsu_paper_title p.ttl {
+text-align:center;
+color:#0382dc;
+font-size:13px;
+font-weight:bold;
+position:absolute;
+top:20px;
+left:20px;
+}
+
+.shisetsu_paper_contents {
+padding:0 0 10px;
+overflow:auto;
+height: auto !important;
+height: 80px;
+}
+
+#main .shisetsu_paper_contents ul{
+margin:0;
+padding:10px 0 0;
+clear:both;
+}
+
+#main .shisetsu_paper_contents ul li{
+float:left;
+padding-right:10px;
+background:none;
+}
+
+#main .shisetsu_paper_contents .link a:hover{
+color:#900;
+text-decoration:underline;
+background:#dff2fc url("/ir/global/common/img/bullet/arrow-red.gif") no-repeat 1px 0;
+}
+
+/*yomurisu*/
+
+.yomurisu #main .ttl{
+margin:0;
+padding:0;
+width:670px;;
+text-indent:-9999px;
+}
+
+.yomurisu #main .yomurisu_list {
+	display:none;
+}
+
+.yomurisu #main .yomurisu_list li {
+background: none repeat scroll 0 0 transparent;
+float: left;
+margin-bottom: 10px;
+padding: 0;
+}
+
+.yomurisu #main dl {
+width:670px;
+}
+
+.yomurisu #main dt {
+float:left;
+width:220px;
+height:35px;
+margin:0;
+clear:both;
+padding-bottom:10px;
+}
+
+.yomurisu #main dd {
+margin-left:220px;
+padding-bottom:10px;
+padding-top:5px;
+}
+
+/* IE7以下以外用 */
+.yomurisu #main dd:after {
+content:'';
+display:block;
+clear:both;
+}
+
+/* koyu
+*******************************************************************************/
+.koyu #main ol {
+    list-style-position: outside;
+    padding: 0 0 0 30px;
+}
+
+.koyu #main ul ol li {
+    background: none repeat scroll 0 0 transparent;
+    list-style-position: outside;
+    list-style-type: decimal;
+    margin-bottom: 3px;
+}
+
+/* gakugai
+*******************************************************************************/
+.gakugai #main ol {
+    list-style-position: outside;
+    padding: 0 0 0 30px;
+}
+
+.gakugai #main ul ol li {
+    background: none repeat scroll 0 0 transparent;
+    list-style-position: outside;
+    list-style-type: decimal;
+    margin-bottom: 3px;
+}
+
+/* shogaiservice
+*******************************************************************************/
+
+body.shogaiservice　#all_main {
+float: left;
+width: 920px;
+}
+
+body.shogaiservice #all_main ul li{
+background:transparent url(/library/common/img/common/circle-blue.gif) no-repeat 0 1px;
+padding-left:15px;
+margin-bottom:3px;
+}
+
+/* access
+*******************************************************************************/
+
+body.access #all_main ul {
+_padding-bottom:40px;
+}
+
+
+body.access #all_main ul li {
+background: none repeat scroll 0 0 transparent;
+border-top: 9px solid #D8D8D8;
+height: auto !important;
+margin: 0;
+min-height: 145px;
+padding: 0 0 40px;
+position: relative;
+}
+body.access #all_main ul li ul {
+margin: 8px 0;
+}
+body.access #all_main ul li ul li {
+background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 1px transparent;
+border-top: medium none;
+height: auto !important;
+margin-bottom: 1px;
+margin-left: 160px;
+min-height: 5px;
+padding: 0 0 0 15px;
+}
+body.access #all_main ul li p.campus {
+border-bottom: 1px solid #CBCBCB;
+clear: none;
+font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","ＭＳ Ｐゴシック",Helvetica,Arial,sans-serif;
+font-size: 1.167em;
+font-weight: bold;
+margin-bottom: 10px;
+padding: 10px 5px 7px 0;
+text-align:left;
+color:#0382DC;
+}
+body.access #all_main ul li p.campus a:hover {
+color: #990000;
+text-decoration: none;
+}
+body.access #all_main ul li p.campus.no-link {
+color: #000000;
+padding: 10px 5px 7px 3px;
+}
+body.access #all_main ul li p {
+font-size: 1em;
+margin-bottom: 10px;
+margin-left: 160px;
+}
+
+body.access #all_main ul li .thumb {
+left: 0;
+position: absolute;
+top: 0;
+_top:10px;
+}
+
+/* sitemap
+*******************************************************************************/
+
+body.sitemap #all_main .left{
+float:left;
+margin:0 20px 20px 0;
+width:300px;
+}
+
+body.sitemap #all_main .center{
+float:left;
+margin:0 20px 20px 0;
+text-align:left;
+width:300px;
+}
+
+body.sitemap #all_main .right{
+float:left;
+margin:0 0 20px 0;
+}
+
+
+body.sitemap #all_main .align_left{text-align: left;}
+body.sitemap #all_main .align_right{text-align: right;}
+body.sitemap #all_main .align_center{text-align: center;}
+
+body.sitemap #sitemap_nav ul {
+    border-top: 0px solid #C0C0C0;
+}
+body.sitemap #sitemap_nav ul li {
+    border-bottom: 1px solid #C0C0C0;
+}
+body.sitemap #sitemap_nav ul li a {
+    color: #000000;
+    display: block;
+	background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 7px transparent;
+    margin-left: 0;
+	padding: 5px 0 5px 15px;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: background-color, color;
+    transition-timing-function: linear;
+	text-decoration:none;
+}
+body.sitemap #sitemap_nav ul li a:hover {
+    background-color: #F6F6F6;
+    color: #990000;
+	background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 7px transparent;
+}
+body.sitemap #sitemap_nav ul li a.current {
+    color: #666;
+	background: url("/ir/global/common/img/bullet/circle-black.gif") no-repeat scroll 0 7px transparent;
+}
+body.sitemap #sitemap_nav ul li a.current:hover {
+    background-color: #FFFFFF;
+    color: #990000;
+    cursor: default;
+}
+body.sitemap #sitemap_nav ul li li {
+    font-size: 1em;
+}
+body.sitemap #sitemap_nav ul li li.lastChild {
+    border: medium none;
+}
+body.sitemap #sitemap_nav ul li li a {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: normal;
+    padding: 5px 0 5px 15px;
+}
+body.sitemap #sitemap_nav ul li li a.current {
+    background-color: #DBEDFA;
+    color: #000000;
+}
+body.sitemap #sitemap_nav ul li li a:hover {
+}
+body.sitemap #sitemap_nav ul li li li a {
+    background-position: 7px center;
+    padding: 7px 0 6px 20px;
+}
+
+body.sitemap #all_main ol ol,body.sitemap #all_main ol ul,#all_main ol dl,
+body.sitemap #all_main ul ol,body.sitemap #all_main ul ul,#all_main ul dl,
+body.sitemap #all_main dl ol,body.sitemap #all_main dl ul,#all_main dl dl{
+font-size:1em;
+margin:0;
+}
+
+/* ================================================= 
+NEWS
+==================================================== */
+
+
+.news .read_more{margin:5px 0 0 0;}
+.news .read_more a{background:none;}
+.news .post_date{font-size:1.2em; color:#666; margin-bottom:5px;}
+
+
+/* list page */
+
+.news #main h3{
+clear: both;
+font-family: "Hiragino Mincho Pro","HGS明朝E","MS PMincho",serif;
+font-size: 2em;
+font-weight: normal;
+line-height: 1.3;
+margin: 0 0 20px;
+background:none;
+border:none;
+padding: 7px 10px 6px 0;
+}
+
+.news #news_list .thumb{
+float:right;
+margin:0 0 10px 10px;
+display:block;
+padding:1px;
+border:1px solid #ccc;
+}
+
+.news #main .time{
+margin-bottom:5px;
+font-size:1em;
+color:#666;
+}
+
+.news #news_list h4{
+clear:none;
+margin:0 0 10px;
+font-size:1.6em;
+font-weight:bold;
+padding: 0;
+border: none;
+background: none;
+}
+.news #news_list .article{
+clear:both;
+margin-bottom:20px;
+padding-bottom:20px;
+border-bottom:1px dotted #b0ab96;
+}
+.news #news_list .article .section{
+margin:0;
+clear:none;
+
+}
+
+
+.news #news_list .article .section .desc{
+line-height: 1.6;
+font-size:1.2em !important;
+}
+.news #news_list .article .section .desc p{font-size:100%;}
+
+
+/* month_selector */
+.news #month_selector{
+margin-bottom:25px;
+}
+
+.news #month_selector li{
+background:none;
+list-style:none outside;
+padding:0;
+float:left;
+display:inline;
+margin:0;
+margin-right:1px;
+font-size:1em;
+}
+
+.news #month_selector li a{
+display:block;
+width:52px;
+vertical-align:middle;
+padding:5px 0;
+text-decoration:none;
+color:#000;
+text-align:center;
+background:#E9E9E9;
+border-bottom:3px solid #fff;
+}
+
+.news #month_selector li.firstChild a,
+.news #month_selector li.lastChild a{width:54px;}
+
+.news #month_selector li a:hover{
+border-bottom:3px solid #900;
+background:none;
+}
+
+/* article */
+
+.news #main #news_article .article{
+font-size:1.2em;
+line-height:1.8;
+}
+
+.news #main #news_article .article p,
+.news #main #news_article .article ol,
+.news #main #news_article .article ul,
+.news #main #news_article .article dl,
+.news #main #news_article .article h6{
+font-size:100%;
+}
+
+.news #main #news_article .article h4{font-size:183%;}
+.news #main #news_article .article h5{font-size:133%;}
+
+
+.student_news #main .entry_body{
+width:420px;
+float:left;
+}
+.news #main #news_article .no-photo{
+width:auto;
+float:none;
+}
+
+.student_news #main .entry_body{width:665px;}
+
+#main #article_picture{
+width:200px;
+padding-top:3px;
+float:right;
+font-size:80%;
+text-align:center;
+}
+
+#main #article_picture .nothing{
+display:none;
+}
+
+.news #main #news_article #article_picture .colorbox {
+border: 1px solid #CCC;
+padding: 1px;
+display: block;
+}
+
+.news #main #news_article #article_picture .colorbox:hover {
+border: 1px solid #900;
+}
+
+
+
+
