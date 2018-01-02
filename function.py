@@ -138,14 +138,16 @@ def get_edge_overlapped_size_from_pointset(pointset1, pointset2):
     
     raise Exception('occured in get_overlapped_size_from_pointset()')
 
-#[WebElement, WebElement, ...] => [(x0, y0), (x1, y1)]
-def get_elems_area_point(elem):
-    pass
 
 #[WebElement, WebElement, ...] => WebElement
-#Return a minimum element from elems
+#Return an elem with least descendants
 def get_minimum_element(elems):
-    pass
+    des_numbers = []
+    for e in elems:
+        des_elems = e.find_elements_by_xpath('descendants::node()')
+        des_numbers.append(len(des_elems))
+    i = des_numbers.index(max(des_numbers))
+    return elems[i]
 
 #[(WebElement, WebElement)]
 def get_final_parent(elem1, elem2):
