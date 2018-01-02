@@ -65,21 +65,27 @@ def find_google_result_links(wd):
     gid__Fp_d = dict()
     for gid, someFp in gid__someFp_d.items():
         gid__Fp_d[gid] = get_minimum_element(someFp)
-    ###　全グループ中、中心領域に最も近いFinal_parentを選び、そのグループID（r）を返す
-    #中心領域を求める
-    gid__Fp_d 
+    ###　全グループ中、中心領域に最も近いFinal_parentを選び、そのグループID（k）を返す
+    #中心領域(10%*10%)を求める
+    center_pset = ((1, 1), (2, 2))
     #中心領域と「辺のみ」重なるFinal_parentを選択、重なった面積を算出してリストにする
-    gid__Fp_overlapped_d = dict()
-    for 
-    ###　dから、グループID（r）をKeyとする値（linkのリスト）を返す
+    gids = []
+    sizes = []
+    for gid, fp in gid__Fp_d.items():
+        fp_pset = get_pointset_from_element(fp)
+        gids.append(gid)
+        sizes.append(get_edge_overlapped_size_from_pointset(fp_pset, center_pset))
+    ###　gid__links_dから、グループID（k）をKeyとする値（linkのリスト）を返す
+    k = gids[sizes.index(max(sizes))]
+    return gid__links_d[k]
 
-
-# WebElement => boolean
-def is_overlapped_at_center(elem):
+# [WebElement, WebElement, ...] => WebElement
+def get_minimum_element(elems):
+    pass
 
 # WebElement => ((int, int), (int, int))
 # Pointset consists of two point
-def get_pointset(elem):
+def get_pointset_from_element(elem):
     e_loc = ( \
         (elem.location['x'], elem.location['y']), \
         (elem.location['x'] + elem.size['width'], \
@@ -89,8 +95,8 @@ def get_pointset(elem):
 
 # WebElement, WebElement => boolean
 def is_overlapped(elem1, elem2):
-    e1_loc = get_pointset(elem1)
-    e2_loc = get_pointset(elem2)
+    e1_loc = get_pointset_from_element(elem1)
+    e2_loc = get_pointset_from_element(elem2)
 
     return is_overlapped_from_pointset(e1_loc, e2_loc)
 
@@ -110,11 +116,11 @@ def is_edge_overlapped_from_pointset(pointset1, pointset2):
 
     return (a_x0 <= b_x0 < b_x1 <= a_x1) or (b_x0 <= a_x0 < a_x1 <= b_x1)
 
-#((int, int), (int, int)), ((int, int), (int, int)) => (int, int)
-# 
+#((int, int), (int, int)), ((int, int), (int, int)) => int
+# pointset1 MUST BE BIGGER than pointset2
 def get_edge_overlapped_size_from_pointset(pointset1, pointset2):
-    if not(is_overlapped_from_pointset(pointset1, pointset2)):
-        return -1
+    if not(is_edge_overlapped_from_pointset(pointset1, pointset2)):
+        return 0
     a_x0, a_x1 = pointset1[0][1], pointset1[1][1]
     b_x0, b_x1 = pointset2[0][1], pointset2[1][1]
 
@@ -126,18 +132,11 @@ def get_edge_overlapped_size_from_pointset(pointset1, pointset2):
             return b_y1 - b_y0
         elif (b_y0 < a_y0 < b_y1 < a_y1):
             return b_y1 - a_y0    
-    # pointset2
+    # pointset2 is bigger
     elif (b_x0 <= a_x0 < a_x1 <= b_x1):
-        if (b_y0 < a_y0 < b_y1 < a_y1):
-            return b_y1 - a_y0
-        elif (b_y0 < a_y0 < a_y1 < b_y1):
-            return a_y1 - a_y0
-        elif (a_y0 < b_y0 < a_y1 < b_y1):
-            return a_y1 - b_y0
-    else:
         return 0
-
-
+    
+    raise Exception('occured in get_overlapped_size_from_pointset()')
 
 #[WebElement, WebElement, ...] => [(x0, y0), (x1, y1)]
 def get_elems_area_point(elem):
