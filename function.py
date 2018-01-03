@@ -41,7 +41,7 @@ def search(wd, word):
     #####Click first page
     
 
-#[list<selenium.webdriver.remote.webelement.WebElement>]
+# WebDriver => [WebElement, WebElement, ...]
 def find_google_result_links(wd):
     ##### 1. Collect all visible <a>
     all_links = select_visible(wd.find_elements_by_tag_name('a'))
