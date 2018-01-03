@@ -1,13 +1,7 @@
 from function import *
 
-if __name__ == 'script':
+if __name__ == '__main__':
     dv = launchChrome()
     search(dv, 'xreading')
     
-    try:
-        a1 = select_visible(dv.find_elements_by_tag_name('a'))[10]
-        for p in parentIterator(a1):
-            print(p.tag_name)
-    finally:
-        time.sleep(5)
-        exit_driver(dv)
+    first_link = select_visible(dv.find_element_by_xpath('a'))

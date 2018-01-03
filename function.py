@@ -5,6 +5,8 @@ from collections import defaultdict
 
 from importlib import reload
 
+##### For debug, insert following
+#import pdb; pdb.set_trace()
 
 #[selenium.webdriver.Chrome]
 def launchChrome(is_headless=False):
@@ -45,7 +47,7 @@ def find_google_result_links(wd):
     all_links = select_visible(wd.find_elements_by_tag_name('a'))
 
     ##### 2. Make chain lists of antescedants by tag names(ex. ['a_div_div', 'a_p_div', ...])
-    all_chains = list(map(lambda e: '_'.join(make_parent_chain(e)), all_links))
+    all_chains = list(map(lambda e: '_'.join(make_parent_chain(e, with_class=True)), all_links))
 
     ##### 3. Make dict {chain_str1: [WebElement, ...], chain_str2: ...}
     gid__links_d = defaultdict(list)
@@ -57,8 +59,8 @@ def find_google_result_links(wd):
     ###　タグ同士を比較して、Final_parentをそれぞれ見つける
     ###　グループIDに、それぞれのFina_parentたちを登録していく
     gid__someFp_d = defaultdict(list)
-    for gid__links_1, gid__links_2 in itertools.permutations(gid__links_d.items(), 2):
-        parent_1, parent_2 = get_final_parent(gid__links_1[1][1], gid__links_2[1][1])
+    for gid__links_1, gid__links_2 in itertools.combinations(gid__links_d.items(), 2):
+        parent_1, parent_2 = get_final_parent(gid__links_1[1][0], gid__links_2[1][0])
         gid__someFp_d[gid__links_1[0]].append(parent_1)
         gid__someFp_d[gid__links_2[0]].append(parent_2)
     ###　それぞれのグループIDのFinal_parentたちを、最小の一つに絞って登録
@@ -67,7 +69,7 @@ def find_google_result_links(wd):
         gid__Fp_d[gid] = get_minimum_element(someFp)
     ###　全グループ中、中心領域に最も近いFinal_parentを選び、そのグループID（k）を返す
     #中心領域(10%*10%)を求める
-    center_pset = ((1, 1), (2, 2))
+    center_pset = get_pointset_of_center_area(wd)
     #中心領域と「辺のみ」重なるFinal_parentを選択、重なった面積を算出してリストにする
     gids = []
     sizes = []
@@ -76,12 +78,8 @@ def find_google_result_links(wd):
         gids.append(gid)
         sizes.append(get_edge_overlapped_size_from_pointset(fp_pset, center_pset))
     ###　gid__links_dから、グループID（k）をKeyとする値（linkのリスト）を返す
-    k = gids[sizes.index(max(sizes))]
-    return gid__links_d[k]
-
-# [WebElement, WebElement, ...] => WebElement
-def get_minimum_element(elems):
-    pass
+    gid = gids[sizes.index(max(sizes))]
+    return gid__links_d[gid]
 
 # WebElement => ((int, int), (int, int))
 # Pointset consists of two point
@@ -92,6 +90,15 @@ def get_pointset_from_element(elem):
         elem.location['y'] + elem.size['height']) \
     )
     return e_loc
+
+# WebDriver, float => ((int, int), (int, int))
+def get_pointset_of_center_area(wd, ratio=0.05):
+    w_width = wd.execute_script('return window.innerWidth')
+    w_height = wd.execute_script('return window.innerHeight')
+    start_point = (w_width/2 - w_width*ratio, w_height/2 - w_height*ratio)
+    end_point = (w_width/2 + w_width*ratio, w_height/2 + w_height*ratio)
+
+    return (start_point, end_point)
 
 # WebElement, WebElement => boolean
 def is_overlapped(elem1, elem2):
@@ -121,11 +128,14 @@ def is_edge_overlapped_from_pointset(pointset1, pointset2):
 def get_edge_overlapped_size_from_pointset(pointset1, pointset2):
     if not(is_edge_overlapped_from_pointset(pointset1, pointset2)):
         return 0
-    a_x0, a_x1 = pointset1[0][1], pointset1[1][1]
-    b_x0, b_x1 = pointset2[0][1], pointset2[1][1]
+    a_x0, a_x1 = pointset1[0][0], pointset1[1][0]
+    b_x0, b_x1 = pointset2[0][0], pointset2[1][0]
 
     # pointset1 is bigger
     if (a_x0 <= b_x0 < b_x1 <= a_x1):
+        a_y0, a_y1 = pointset1[0][1], pointset1[1][1]
+        b_y0, b_y1 = pointset2[0][1], pointset2[1][1]
+
         if (a_y0 < b_y0 < a_y1 < b_y1):
             return a_y1 - b_y0
         elif (a_y0 < b_y0 < b_y1 < a_y1):
@@ -140,13 +150,10 @@ def get_edge_overlapped_size_from_pointset(pointset1, pointset2):
 
 
 #[WebElement, WebElement, ...] => WebElement
-#Return an elem with least descendants
+#Return an elem with the least descendants
 def get_minimum_element(elems):
-    des_numbers = []
-    for e in elems:
-        des_elems = e.find_elements_by_xpath('descendants::node()')
-        des_numbers.append(len(des_elems))
-    i = des_numbers.index(max(des_numbers))
+    antes_numbers = list(map(lambda e: len(list(parentIterator(e))), elems))
+    i = antes_numbers.index(max(antes_numbers))
     return elems[i]
 
 #[(WebElement, WebElement)]
@@ -171,12 +178,20 @@ def get_final_parent(elem1, elem2):
     return elem1_final_parent, elem2_final_parent
 
 #[list<str>]
-def make_parent_chain(elem, length=3):
+def make_parent_chain(elem, length=3, with_class=False):
     p_chain = []
     parent = elem
     for i in range(length):
-        parent = parent.find_element_by_xpath('parent::node()')
-        p_chain.append(parent.tag_name)
+        try:
+            parent = parent.find_element_by_xpath('parent::node()')
+        except:
+            break
+
+        chain = parent.tag_name
+        if with_class:
+            chain = chain + '.' + parent.get_attribute('class')
+        p_chain.append(chain)
+
     return p_chain
 
 #[list<selenium.webdriver.remote.webelement.WebElement>]
@@ -254,18 +269,14 @@ def exit_driver(wd):
 
 class parentIterator(object):
     def __init__(self, elem):
-        print('enter __init__')
         self._parent_elem = elem
     
     def __iter__(self):
-        print('enter __iter__')
         return self
     
     def __next__(self):
-        print('enter __next__')
         try:
             self._parent_elem = self._parent_elem.find_element_by_xpath('parent::node()')
         except:
             raise StopIteration()
         return self._parent_elem
-
