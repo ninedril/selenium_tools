@@ -1,9 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import itertools, time
+import itertools, time, os
 from collections import defaultdict
 
 from importlib import reload
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 ##### For debug, insert following
 #import pdb; pdb.set_trace()
@@ -11,12 +13,13 @@ from importlib import reload
 #[selenium.webdriver.Chrome]
 def launchChrome(is_headless=False):
 	op = Options()
-	op.add_argument('user-data-dir=setting/profile')
+	op.add_argument('user-data-dir=' + current_dir + '/setting/profile')
 	if is_headless:
 		op.add_argument('--headless')
 		op.add_argument('--disable-gpu')
-	op.binary_location = 'bin/chrome/chrome.exe'
-	driver = webdriver.Chrome('bin/chromedriver.exe', chrome_options=op)
+        op.add_argument('--no-startup-window')
+	op.binary_location = current_dir + '/bin/chrome/chrome.exe'
+	driver = webdriver.Chrome(current_dir + '/bin/chromedriver.exe', chrome_options=op)
 	return driver
 
 #[boolean]

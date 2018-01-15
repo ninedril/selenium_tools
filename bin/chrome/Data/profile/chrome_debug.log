@@ -1,176 +1,42 @@
-[1784:10844:0102/165305.341:WARNING:leveldb_database.cc(65)] Unable to open C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Thumbnails: IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Thumbnails/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:5720:0102/165305.506:ERROR:data_store_impl.cc(131)] Failed to open Data Reduction Proxy DB: 3
-[1784:3360:0102/165305.890:ERROR:leveldb_database.cc(319)] Failed to open LevelDB database from C:\Development\selenium_tools\bin\chrome\Data\profile\Default\IndexedDB\https_www.google.co.jp_0.indexeddb.leveldb,IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\IndexedDB\https_www.google.co.jp_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:3360:0102/165305.891:ERROR:indexed_db_backing_store.cc(1439)] Unable to open backing store, not trying to recover - IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\IndexedDB\https_www.google.co.jp_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:2144:0102/165305.925:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
-[1784:2144:0102/165305.925:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\ogupe\AppData\Local\Temp\GoogleChromePortable\Default\Cache to C:\Users\ogupe\AppData\Local\Temp\GoogleChromePortable\Default\old_Cache_000
-[1784:2144:0102/165305.925:ERROR:disk_cache.cc(172)] Unable to create cache
-[1784:10844:0102/165306.752:WARNING:value_store_frontend.cc(42)] Reading eemcgdkfndhakfknompkggombfjjjeno.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:10844:0102/165306.758:WARNING:value_store_frontend.cc(42)] Reading mfehgcgbbipciphmccgaenjidiccnmng.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:10844:0102/165306.766:WARNING:value_store_frontend.cc(42)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:10844:0102/165306.772:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:10844:0102/165306.792:WARNING:value_store_frontend.cc(42)] Reading aapnijgdinlhnhlmodcfapnahmbfebeb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:5720:0102/165444.618:WARNING:leveldb_database.cc(65)] Unable to open C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\EventDB: IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\EventDB/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:5720:0102/165444.625:WARNING:leveldb_database.cc(65)] Unable to open C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\AvailabilityDB: IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\AvailabilityDB/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[1784:11724:0103/020426.964:ERROR:gpu_process_transport_factory.cc(992)] Lost UI shared context.
-[1784:11724:0103/030505.147:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M:' was loaded over HTTPS, but requested an insecure image 'http://www.nellies.jp/digitalreader/img/xreadingvl.jpg'. This content should also be served over HTTPS.", source: https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M: (0)
-[1784:11724:0103/030505.148:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M:' was loaded over HTTPS, but requested an insecure image 'http://www.nellies.jp/digitalreader/xreadingvl/04.jpg'. This content should also be served over HTTPS.", source: https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M: (0)
-[1784:11724:0103/031534.647:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (539 ms):
-Tab [xreading - Google 検索] 1504 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 65 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031559.451:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (356 ms):
-Tab [xreading - Google 検索] 1650 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 69 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031609.487:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (391 ms):
-Tab [xreading - Google 検索] 1726 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 61 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031629.430:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (330 ms):
-Tab [xreading - Google 検索] 1845 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 66 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031634.506:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (406 ms):
-Tab [xreading - Google 検索] 1891 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 66 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031639.430:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (328 ms):
-Tab [xreading - Google 検索] 1926 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 67 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031644.454:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (351 ms):
-Tab [xreading - Google 検索] 1965 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 67 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031649.447:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (344 ms):
-Tab [xreading - Google 検索] 2003 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 66 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031654.450:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (346 ms):
-Tab [xreading - Google 検索] 2040 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 67 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031659.447:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (343 ms):
-Tab [xreading - Google 検索] 2049 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031704.423:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (319 ms):
-Tab [xreading - Google 検索] 2044 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 69 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031709.447:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (342 ms):
-Tab [xreading - Google 検索] 2044 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 69 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031714.442:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (336 ms):
-Tab [xreading - Google 検索] 1982 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 69 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031719.409:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (302 ms):
-Tab [xreading - Google 検索] 1982 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031724.421:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (313 ms):
-Tab [xreading - Google 検索] 1984 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031729.414:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (306 ms):
-Tab [xreading - Google 検索] 1984 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031734.454:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (344 ms):
-Tab [xreading - Google 検索] 1983 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031739.428:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (318 ms):
-Tab [xreading - Google 検索] 1984 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 25 MB shared
-GPU [] 39 MB private, 16 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031744.406:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (295 ms):
-Tab [xreading - Google 検索] 1984 MB private, 14 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 26 MB shared
-GPU [] 45 MB private, 18 MB shared
-Browser 16 MB private, 23 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031749.434:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (321 ms):
-Tab [xreading - Google 検索] 1983 MB private, 15 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 25 MB shared
-GPU [] 49 MB private, 17 MB shared
-Browser 16 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031754.504:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (388 ms):
-Tab [xreading - Google 検索] 1984 MB private, 18 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 68 MB private, 26 MB shared
-GPU [] 52 MB private, 21 MB shared
-Browser 16 MB private, 23 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031759.645:WARNING:oom_memory_details.cc(46)] Tab Discards Memory details (520 ms):
-Tab [xreading - Google 検索] 1968 MB private, 17 MB shared
-Tab [chrome-devtools://devtools/bundled/toolbox.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@67b212ffb03c4401235f8961e2d15371b96cde27/&can_dock=true&hasOtherClients=true&dockSide=undocked|Developer Tools - https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454] 70 MB private, 25 MB shared
-GPU [] 51 MB private, 18 MB shared
-Browser 17 MB private, 22 MB shared
-Extension [Chrome Automation Extension] 1 MB private, 18 MB shared
-
-[1784:11724:0103/031911.705:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M:' was loaded over HTTPS, but requested an insecure image 'http://www.nellies.jp/digitalreader/img/xreadingvl.jpg'. This content should also be served over HTTPS.", source: https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M: (0)
-[1784:11724:0103/031911.711:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M:' was loaded over HTTPS, but requested an insecure image 'http://www.nellies.jp/digitalreader/xreadingvl/04.jpg'. This content should also be served over HTTPS.", source: https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=605mSlnrhQNQ7M: (0)
-[1784:11724:0103/031923.318:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=DeT6k170slga2M:' was loaded over HTTPS, but requested an insecure image 'http://showaelc.org/wp-content/uploads/2017/04/xreading-755x482.jpg'. This content should also be served over HTTPS.", source: https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=DeT6k170slga2M: (0)
-[1784:11724:0103/031944.920:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=1XLstxZaOl4UwM:' was loaded over HTTPS, but requested an insecure image 'http://www.nellies.jp/digitalreader/xreadingvl/05.jpg'. This content should also be served over HTTPS.", source: https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=1XLstxZaOl4UwM: (0)
-[1784:11724:0103/032052.297:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=a9C4AtLE_H_8aM:' was loaded over HTTPS, but requested an insecure image 'http://www.nellies.jp/digitalreader/xreadingvl/02.jpg'. This content should also be served over HTTPS.", source: https://www.google.co.jp/search?q=xreading&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiM3pyd5rjYAhWJv7wKHR7uAaIQ_AUIDCgD&biw=905&bih=454#imgrc=a9C4AtLE_H_8aM: (0)
+[6720:8972:0114/194329.171:WARNING:leveldb_database.cc(65)] Unable to open C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Thumbnails: IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Thumbnails/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:1992:0114/194329.202:ERROR:data_store_impl.cc(131)] Failed to open Data Reduction Proxy DB: 3
+[6720:2264:0114/194330.399:INFO:CONSOLE(8)] "SW registered", source: https://www.google.co.jp/_/chrome/newtab?espv=2&ie=UTF-8 (8)
+[6720:824:0114/194330.523:ERROR:leveldb_database.cc(319)] Failed to open LevelDB database from C:\Development\selenium_tools\bin\chrome\Data\profile\Default\IndexedDB\https_www.google.co.jp_0.indexeddb.leveldb,IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\IndexedDB\https_www.google.co.jp_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:824:0114/194330.525:ERROR:indexed_db_backing_store.cc(1439)] Unable to open backing store, not trying to recover - IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\IndexedDB\https_www.google.co.jp_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:824:0114/194331.198:WARNING:value_store_frontend.cc(42)] Reading eemcgdkfndhakfknompkggombfjjjeno.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:824:0114/194331.203:WARNING:value_store_frontend.cc(42)] Reading mfehgcgbbipciphmccgaenjidiccnmng.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:824:0114/194331.208:WARNING:value_store_frontend.cc(42)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:824:0114/194331.214:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:824:0114/194331.232:WARNING:value_store_frontend.cc(42)] Reading aapnijgdinlhnhlmodcfapnahmbfebeb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:2264:0114/194332.384:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194332.610:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194332.822:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194333.309:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194333.354:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194335.801:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194335.943:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194342.632:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194342.959:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194344.943:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194345.343:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194406.855:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194407.071:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194417.055:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194417.607:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194417.896:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194428.250:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194428.348:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194438.110:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194439.329:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194449.550:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194449.782:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194500.279:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194501.266:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194512.345:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194512.550:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194522.355:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194522.606:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:2264:0114/194523.097:WARNING:render_frame_host_impl.cc(2624)] OnDidStopLoading was called twice.
+[6720:10116:0114/194531.816:WARNING:leveldb_database.cc(65)] Unable to open C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\EventDB: IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\EventDB/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:10116:0114/194531.825:WARNING:leveldb_database.cc(65)] Unable to open C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\AvailabilityDB: IO error: C:\Development\selenium_tools\bin\chrome\Data\profile\Default\Feature Engagement Tracker\AvailabilityDB/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[6720:2264:0114/194531.926:INFO:chrome_cryptauth_service.cc(222)] Profile is not authenticated yet; waiting before starting CryptAuth managers.
